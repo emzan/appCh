@@ -403,6 +403,35 @@ function ($scope, $stateParams, Ctutorials) {
         
         }])
 
+        .controller('xListaNomiCtrl', ['$scope', '$stateParams', 'Xtutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+        // You can include any angular dependencies as parameters for this function
+        // TIP: Access Route Parameters for your page via $stateParams.parameterName
+        function ($scope, $stateParams, Xtutorials) {
+          
+            $scope.narrowed_xtutorials = Xtutorials.list;
+            $scope.data = {
+                search: ''
+            }
+            
+            $scope.search = function(){
+                
+                var s = $scope.data.search.toLowerCase();
+                
+                if (s == ''){
+                    $scope.narrowed_xtutorials = Xtutorials.list;
+                    return;
+                }
+                
+                $scope.narrowed_xtutorials = Xtutorials.list.filter(function(xtutorial){
+                  if (xtutorial.termine.toLowerCase().indexOf(s) > -1 || xtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                      return true;
+                  } 
+                  return false;
+                });
+            }
+          
+          }])
+
         .controller('yListaNomiCtrl', ['$scope', '$stateParams', 'Ytutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
         // You can include any angular dependencies as parameters for this function
         // TIP: Access Route Parameters for your page via $stateParams.parameterName
@@ -629,6 +658,19 @@ function ($scope, $stateParams, Wtutorials) {
     });
 
 }])
+
+.controller('xtutorialCtrl', ['$scope', '$stateParams', 'Xtutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Xtutorials) {
+
+    $scope.video = Xtutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
+
+}])
+
 
 .controller('ytutorialCtrl', ['$scope', '$stateParams', 'Ytutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
