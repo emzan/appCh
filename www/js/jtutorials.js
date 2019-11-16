@@ -15,11 +15,11 @@ angular.module('jtutorials', [])
           id: '1'
         },
         {
-            key: '’êḵāh',
-            termine: 'אֵיכָה',
-            traslitterazione: '’êḵāh',
-            significato: 'come? come mai?;',
-            grammatica: 'particella interrogativa',
+            key: 'Jí zhè',
+            termine: '藉這',
+            traslitterazione: 'Jí zhè',
+            significato: 'By this',
+            grammatica: '求你藉這共融聖事',
             altro: '',
             id: '2'
         },
