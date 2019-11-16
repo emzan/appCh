@@ -215,6 +215,26 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.dListaNomi', {
+    url: '/page239',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/dListaNomi.html',
+        controller: 'dListaNomiCtrl'
+      }
+    }
+  })
+
+  .state('tabsController.eListaNomi', {
+    url: '/page241',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/eListaNomi.html',
+        controller: 'eListaNomiCtrl'
+      }
+    }
+  })
+
   .state('tutorial', {
     url: '/page6',
     params: {
@@ -388,6 +408,26 @@ angular.module('app.routes', [])
   },
         templateUrl: 'templates/mtutorial.html',
         controller: 'mtutorialCtrl'
+      }
+  )
+
+  .state('dtutorial', {
+    url: '/page240',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/dtutorial.html',
+        controller: 'dtutorialCtrl'
+      }
+  )
+
+  .state('dtutorial', {
+    url: '/page242',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/etutorial.html',
+        controller: 'etutorialCtrl'
       }
   )
 

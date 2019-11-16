@@ -110,6 +110,64 @@ function ($scope, $stateParams, Ctutorials) {
     }
   
   }])
+
+  .controller('dListaNomiCtrl', ['$scope', '$stateParams', 'Dtutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Dtutorials) {
+  
+    $scope.narrowed_dtutorials = Dtutorials.list;
+    $scope.data = {
+        search: ''
+    }
+    
+    $scope.search = function(){
+        
+        var s = $scope.data.search.toLowerCase();
+        
+        if (s == ''){
+            $scope.narrowed_dtutorials = Dtutorials.list;
+            return;
+        }
+        
+        $scope.narrowed_dtutorials = Dtutorials.list.filter(function(dtutorial){
+          if (dtutorial.termine.toLowerCase().indexOf(s) > -1 || dtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+              return true;
+          } 
+          return false;
+        });
+    }
+  
+  }])
+
+  .controller('eListaNomiCtrl', ['$scope', '$stateParams', 'Etutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Etutorials) {
+  
+    $scope.narrowed_etutorials = Etutorials.list;
+    $scope.data = {
+        search: ''
+    }
+    
+    $scope.search = function(){
+        
+        var s = $scope.data.search.toLowerCase();
+        
+        if (s == ''){
+            $scope.narrowed_etutorials = Etutorials.list;
+            return;
+        }
+        
+        $scope.narrowed_etutorials = Etutorials.list.filter(function(etutorial){
+          if (etutorial.termine.toLowerCase().indexOf(s) > -1 || etutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+              return true;
+          } 
+          return false;
+        });
+    }
+  
+  }])
    
   .controller('tListaNomiCtrl', ['$scope', '$stateParams', 'Ttutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
   // You can include any angular dependencies as parameters for this function
@@ -557,6 +615,32 @@ function ($scope, $stateParams, Btutorials) {
 function ($scope, $stateParams, Ctutorials) {
 
     $scope.video = Ctutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
+
+
+}])
+
+.controller('dtutorialCtrl', ['$scope', '$stateParams', 'Dtutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Dtutorials) {
+
+    $scope.video = Dtutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
+
+
+}])
+
+.controller('etutorialCtrl', ['$scope', '$stateParams', 'Etutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Etutorials) {
+
+    $scope.video = Etutorials.keys[$stateParams.videokey];
     $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
         viewData.enableBack = true;
     });
