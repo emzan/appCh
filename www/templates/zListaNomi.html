@@ -1,0 +1,15 @@
+<ion-view title="Z lista nomi" id="page21">
+  <ion-content padding="true" class="has-header">
+    <form id="ZListaNomi-form1" class="list">
+      <label class="item item-input" id="zListaNomi-search1">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="" ng-model="data.search" ng-change="search()">
+      </label>
+    </form>
+
+    <ion-item id="zListaNomi-list-item2" ui-sref="ztutorial({&quot;videokey&quot;:&quot;&quot;+ztutorial.key+&quot;&quot;})" ng-repeat="ztutorial in narrowed_ztutorials">{{ztutorial.termine}} - {{ztutorial.traslitterazione}}</ion-item>
+ 
+   
+       
+  </ion-content>
+</ion-view>

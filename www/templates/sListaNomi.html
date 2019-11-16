@@ -1,0 +1,15 @@
+<ion-view title="S lista nomi" id="page29">
+  <ion-content padding="true" class="has-header">
+    <form id="SListaNomi-form1" class="list">
+      <label class="item item-input" id="sListaNomi-search1">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="" ng-model="data.search" ng-change="search()">
+      </label>
+    </form>
+
+    <ion-item id="sListaNomi-list-item2" ui-sref="stutorial({&quot;videokey&quot;:&quot;&quot;+stutorial.key+&quot;&quot;})" ng-repeat="stutorial in narrowed_stutorials">{{stutorial.termine}} - {{stutorial.traslitterazione}}</ion-item>
+ 
+   
+       
+  </ion-content>
+</ion-view>

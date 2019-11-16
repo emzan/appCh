@@ -1,0 +1,15 @@
+<ion-view title="F lista nomi" id="page13">
+  <ion-content padding="true" class="has-header">
+    <form id="FListaNomi-form1" class="list">
+      <label class="item item-input" id="fListaNomi-search1">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="" ng-model="data.search" ng-change="search()">
+      </label>
+    </form>
+
+    <ion-item id="fListaNomi-list-item2" ui-sref="ftutorial({&quot;videokey&quot;:&quot;&quot;+ftutorial.key+&quot;&quot;})" ng-repeat="ftutorial in narrowed_ftutorials">{{ftutorial.termine}} - {{ftutorial.traslitterazione}}</ion-item>
+ 
+   
+       
+  </ion-content>
+</ion-view>
