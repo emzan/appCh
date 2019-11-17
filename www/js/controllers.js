@@ -372,6 +372,35 @@ function ($scope, $stateParams, Etutorials) {
             
             }])
 
+            .controller('nListaNomiCtrl', ['$scope', '$stateParams', 'Ntutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+            // You can include any angular dependencies as parameters for this function
+            // TIP: Access Route Parameters for your page via $stateParams.parameterName
+            function ($scope, $stateParams, Ntutorials) {
+              
+                $scope.narrowed_ntutorials = Ntutorials.list;
+                $scope.data = {
+                    search: ''
+                }
+                
+                $scope.search = function(){
+                    
+                    var s = $scope.data.search.toLowerCase();
+                    
+                    if (s == ''){
+                        $scope.narrowed_ntutorials = Ntutorials.list;
+                        return;
+                    }
+                    
+                    $scope.narrowed_ntutorials = Ntutorials.list.filter(function(ntutorial){
+                      if (ntutorial.termine.toLowerCase().indexOf(s) > -1 || ntutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                          return true;
+                      } 
+                      return false;
+                    });
+                }
+              
+              }])
+
         .controller('pListaNomiCtrl', ['$scope', '$stateParams', 'Ptutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
         // You can include any angular dependencies as parameters for this function
         // TIP: Access Route Parameters for your page via $stateParams.parameterName
@@ -761,6 +790,18 @@ function ($scope, $stateParams, Ktutorials) {
 function ($scope, $stateParams, Mtutorials) {
 
     $scope.video = Mtutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
+
+}])
+
+.controller('ntutorialCtrl', ['$scope', '$stateParams', 'Ntutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Ntutorials) {
+
+    $scope.video = Ntutorials.keys[$stateParams.videokey];
     $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
         viewData.enableBack = true;
     });
