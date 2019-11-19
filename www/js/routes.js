@@ -295,6 +295,18 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.vListaNomi', {
+    url: '/page255',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/vListaNomi.html',
+        controller: 'vListaNomiCtrl'
+      }
+    }
+  })
+
+  
+
 
 
   .state('tutorial', {
@@ -550,6 +562,16 @@ angular.module('app.routes', [])
   },
         templateUrl: 'templates/ututorial.html',
         controller: 'ututorialCtrl'
+      }
+  )
+
+  .state('vtutorial', {
+    url: '/page256',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/vtutorial.html',
+        controller: 'vtutorialCtrl'
       }
   )
 
