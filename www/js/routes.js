@@ -255,6 +255,16 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.iListaNomi', {
+    url: '/page247',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/iListaNomi.html',
+        controller: 'iListaNomiCtrl'
+      }
+    }
+  })
+
 
   .state('tutorial', {
     url: '/page6',
@@ -469,6 +479,16 @@ angular.module('app.routes', [])
   },
         templateUrl: 'templates/ntutorial.html',
         controller: 'ntutorialCtrl'
+      }
+  )
+
+  .state('itutorial', {
+    url: '/page248',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/itutorial.html',
+        controller: 'itutorialCtrl'
       }
   )
 
