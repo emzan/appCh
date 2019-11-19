@@ -73,8 +73,8 @@ angular.module('itutorials', [])
       }
 
     return {
-        list: ktutorials_list,
-        keys: ktutorials_keys
+        list: itutorials_list,
+        keys: itutorials_keys
     }
 
 }]);
