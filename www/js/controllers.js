@@ -314,6 +314,35 @@ function ($scope, $stateParams, Etutorials) {
           
           }])
 
+          .controller('lListaNomiCtrl', ['$scope', '$stateParams', 'Ltutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+          // You can include any angular dependencies as parameters for this function
+          // TIP: Access Route Parameters for your page via $stateParams.parameterName
+          function ($scope, $stateParams, Ltutorials) {
+            
+              $scope.narrowed_ltutorials = Ltutorials.list;
+              $scope.data = {
+                  search: ''
+              }
+              
+              $scope.search = function(){
+                  
+                  var s = $scope.data.search.toLowerCase();
+                  
+                  if (s == ''){
+                      $scope.narrowed_ltutorials = Ltutorials.list;
+                      return;
+                  }
+                  
+                  $scope.narrowed_ltutorials = Ltutorials.list.filter(function(ltutorial){
+                    if (ltutorial.termine.toLowerCase().indexOf(s) > -1 || ltutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                        return true;
+                    } 
+                    return false;
+                  });
+              }
+            
+            }])
+
       .controller('jListaNomiCtrl', ['$scope', '$stateParams', 'Jtutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
       // You can include any angular dependencies as parameters for this function
       // TIP: Access Route Parameters for your page via $stateParams.parameterName
@@ -429,6 +458,35 @@ function ($scope, $stateParams, Etutorials) {
                 }
               
               }])
+
+              .controller('oListaNomiCtrl', ['$scope', '$stateParams', 'Otutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+              // You can include any angular dependencies as parameters for this function
+              // TIP: Access Route Parameters for your page via $stateParams.parameterName
+              function ($scope, $stateParams, Otutorials) {
+                
+                  $scope.narrowed_otutorials = Otutorials.list;
+                  $scope.data = {
+                      search: ''
+                  }
+                  
+                  $scope.search = function(){
+                      
+                      var s = $scope.data.search.toLowerCase();
+                      
+                      if (s == ''){
+                          $scope.narrowed_otutorials = Otutorials.list;
+                          return;
+                      }
+                      
+                      $scope.narrowed_otutorials = Otutorials.list.filter(function(otutorial){
+                        if (otutorial.termine.toLowerCase().indexOf(s) > -1 || otutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                            return true;
+                        } 
+                        return false;
+                      });
+                  }
+                
+                }])
 
         .controller('pListaNomiCtrl', ['$scope', '$stateParams', 'Ptutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
         // You can include any angular dependencies as parameters for this function
@@ -800,6 +858,20 @@ function ($scope, $stateParams, Itutorials) {
 
 }])
 
+.controller('ltutorialCtrl', ['$scope', '$stateParams', 'Ltutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Ltutorials) {
+
+    $scope.video = Ltutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
+
+
+}])
+
+
 
 
 .controller('jtutorialCtrl', ['$scope', '$stateParams', 'Jtutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
@@ -849,6 +921,19 @@ function ($scope, $stateParams, Ntutorials) {
     });
 
 }])
+
+.controller('otutorialCtrl', ['$scope', '$stateParams', 'Otutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+// You can include any angular dependencies as parameters for this function
+// TIP: Access Route Parameters for your page via $stateParams.parameterName
+function ($scope, $stateParams, Otutorials) {
+
+    $scope.video = Otutorials.keys[$stateParams.videokey];
+    $scope.$on('$ionicView.beforeEnter', function (event, viewData) {
+        viewData.enableBack = true;
+    });
+
+}])
+
 
 .controller('ptutorialCtrl', ['$scope', '$stateParams', 'Ptutorials', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
