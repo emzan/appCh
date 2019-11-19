@@ -285,6 +285,17 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('tabsController.uListaNomi', {
+    url: '/page253',
+    views: {
+      'tab1': {
+        templateUrl: 'templates/uListaNomi.html',
+        controller: 'uListaNomiCtrl'
+      }
+    }
+  })
+
+
 
   .state('tutorial', {
     url: '/page6',
@@ -529,6 +540,16 @@ angular.module('app.routes', [])
   },
         templateUrl: 'templates/otutorial.html',
         controller: 'otutorialCtrl'
+      }
+  )
+
+  .state('ututorial', {
+    url: '/page254',
+    params: {
+      videokey: ""		
+  },
+        templateUrl: 'templates/ututorial.html',
+        controller: 'ututorialCtrl'
       }
   )
 
