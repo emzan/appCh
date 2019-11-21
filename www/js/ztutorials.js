@@ -15,11 +15,11 @@ angular.module('ztutorials', [])
           id: '1'
         },
         {
-            key: '’êḵāh',
-            termine: 'אֵיכָה',
-            traslitterazione: '’êḵāh',
-            significato: 'come? come mai?;',
-            grammatica: 'particella interrogativa',
+            key: 'Zuìzhuàng pái',
+            termine: '罪狀牌',
+            traslitterazione: 'Zuìzhuàng pái',
+            significato: 'Guilty card',
+            grammatica: '寫的罪狀牌',
             altro: '',
             id: '2'
         },

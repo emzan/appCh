@@ -24,6 +24,15 @@ angular.module('xtutorials', [])
           altro: '',
           id: '2'
       },
+      {
+        key: 'Xuánguàzhe',
+        termine: '懸掛著',
+        traslitterazione: 'Xuánguàzhe',
+        significato: 'Hanging',
+        grammatica: '懸掛著的凶犯中',
+        altro: '',
+        id: '3'
+    },
         {
           key: 'Xúnzhǎo',
           termine: '尋找',
@@ -31,7 +40,7 @@ angular.module('xtutorials', [])
           significato: 'Search',
           grammatica: '是為尋找及拯救迷失了的人',
           altro: '',
-          id: '3'
+          id: '4'
         }
       
         
