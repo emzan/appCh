@@ -15,11 +15,11 @@ angular.module('stutorials', [])
           id: '1'
         },
         {
-            key: '’êḵāh',
-            termine: 'אֵיכָה',
-            traslitterazione: '’êḵāh',
-            significato: 'come? come mai?;',
-            grammatica: 'particella interrogativa',
+            key: 'Shǒulǐng',
+            termine: '首領',
+            traslitterazione: 'Shǒulǐng',
+            significato: 'leader',
+            grammatica: '首領們嗤笑耶穌',
             altro: '',
             id: '2'
         },

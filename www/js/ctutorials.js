@@ -22,7 +22,16 @@ angular.module('ctutorials', [])
             grammatica: 'v.',
             altro: 'Qal, qatal, 3 ms, scoprì, rimosse, dislocò, partì, andò in esilio;',
             id: '2'
-        }
+        },
+        {
+          key: 'Chīxiào',
+          termine: '嗤笑',
+          traslitterazione: 'Chīxiào',
+          significato: 'laugh',
+          grammatica: '首領們嗤笑耶穌',
+          altro: '',
+          id: '3'
+      }
        
         
         
