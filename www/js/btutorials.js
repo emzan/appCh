@@ -24,13 +24,31 @@ angular.module('btutorials', [])
             id: '2'
         },
         {
+          key: 'Bèi xuǎnzhě',
+          termine: '被選者',
+          traslitterazione: 'Bèi xuǎnzhě',
+          significato: 'Selected',
+          grammatica: '如果這人是天主的受傅者、被選者',
+          altro: '',
+          id: '3'
+        },
+        {
           key: 'Bēnpǎo',
           termine: '奔跑',
           traslitterazione: 'Bēnpǎo',
           significato: 'run',
           grammatica: '於是他往前奔跑',
           altro: '',
-          id: '3'
+          id: '4'
+        },
+        {
+          key: 'Bīngshì',
+          termine: '兵士',
+          traslitterazione: 'Bīngshì',
+          significato: 'Soldier',
+          grammatica: '兵士也戲弄耶穌',
+          altro: '',
+          id: '5'
         }
        
         

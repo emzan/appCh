@@ -15,25 +15,25 @@ angular.module('stutorials', [])
           id: '1'
         },
         {
+            key: 'Shòu fù zhě',
+            termine: '受傅者',
+            traslitterazione: 'Shòu fù zhě',
+            significato: 'Receiver',
+            grammatica: '如果這人是天主的受傅者',
+            altro: '',
+            id: '2'
+          },
+        {
             key: 'Shǒulǐng',
             termine: '首領',
             traslitterazione: 'Shǒulǐng',
             significato: 'leader',
             grammatica: '首領們嗤笑耶穌',
             altro: '',
-            id: '2'
-        },
-       
-        
-        {
-            key: '’ên',
-            termine: 'אֵין',
-            traslitterazione: '’ên',
-            significato: 'non c’è, non ci sono, non esiste;',
-            grammatica: 'particella di negazione',
-            altro: '',
             id: '3'
         },
+       
+       
         {
             key: '’îš',
             termine: 'אִישׁ',

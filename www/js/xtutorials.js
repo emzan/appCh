@@ -16,13 +16,22 @@ angular.module('xtutorials', [])
             id: '1'
         },
         {
+          key: 'Xìnòng',
+          termine: '戲弄',
+          traslitterazione: 'Xìnòng',
+          significato: 'Teasing',
+          grammatica: '兵士也戲弄耶穌',
+          altro: '',
+          id: '2'
+      },
+        {
           key: 'Xúnzhǎo',
           termine: '尋找',
           traslitterazione: 'Xúnzhǎo',
           significato: 'Search',
           grammatica: '是為尋找及拯救迷失了的人',
           altro: '',
-          id: '2'
+          id: '3'
         }
       
         
