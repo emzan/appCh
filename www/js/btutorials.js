@@ -6,12 +6,12 @@ angular.module('btutorials', [])
     
     var btutorials_list = [
         {
-          key: 'Bēnpǎo',
-          termine: '奔跑',
-          traslitterazione: 'Bēnpǎo',
-          significato: 'run',
-          grammatica: '於是他往前奔跑',
-          altro: '',
+          key: 'bāraḥ',
+          termine: 'בָּרַח',
+          traslitterazione: 'bāraḥ',
+          significato: 'fuggire, scappare;',
+          grammatica: 'v.',
+          altro: 'Qal, qatal, 3 ms, fuggì, scappò;',
           id: '1'
         },
         {
@@ -22,6 +22,15 @@ angular.module('btutorials', [])
             grammatica: 'n. f.',
             altro: 'cstr. בְּתוּלַת - pl. f. בְּתוּלוֹת',
             id: '2'
+        },
+        {
+          key: 'Bēnpǎo',
+          termine: '奔跑',
+          traslitterazione: 'Bēnpǎo',
+          significato: 'run',
+          grammatica: '於是他往前奔跑',
+          altro: '',
+          id: '3'
         }
        
         

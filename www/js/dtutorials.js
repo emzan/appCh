@@ -22,7 +22,16 @@ angular.module('dtutorials', [])
             grammatica: 'v.',
             altro: 'Qal, qatal, 3 ms, scoprì, rimosse, dislocò, partì, andò in esilio;',
             id: '2'
-        }
+        },
+        {
+          key: 'Dīng',
+          termine: '釘',
+          traslitterazione: 'Dīng',
+          significato: 'inchiodare',
+          grammatica: '耶穌被釘在十字架上時',
+          altro: '',
+          id: '3'
+      }
        
         
         
