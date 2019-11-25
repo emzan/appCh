@@ -8,6 +8,7 @@ angular.module('jtutorials', [])
         {
           key: 'Jìtán',
           termine: '祭壇',
+          senza: 'גדול',
           traslitterazione: 'Jìtán',
           significato: 'altar',
           grammatica: '他在十字架祭壇上',
@@ -17,6 +18,7 @@ angular.module('jtutorials', [])
         {
             key: 'Jí zhè',
             termine: '藉這',
+          senza: 'גדול',
             traslitterazione: 'Jí zhè',
             significato: 'By this',
             grammatica: '求你藉這共融聖事',
@@ -28,6 +30,7 @@ angular.module('jtutorials', [])
         {
             key: '’ên',
             termine: 'אֵין',
+          senza: 'גדול',
             traslitterazione: '’ên',
             significato: 'non c’è, non ci sono, non esiste;',
             grammatica: 'particella di negazione',
@@ -37,6 +40,7 @@ angular.module('jtutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('jtutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('jtutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
