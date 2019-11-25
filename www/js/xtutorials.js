@@ -9,6 +9,7 @@ angular.module('xtutorials', [])
         {
             key: 'Xìngfú',
             termine: '幸福',
+          senza: 'גדול',
             traslitterazione: 'Xìngfú',
             significato: 'happy',
             grammatica: '我們才能獲得永恆和圓滿的幸福',
@@ -18,6 +19,7 @@ angular.module('xtutorials', [])
         {
           key: 'Xìnòng',
           termine: '戲弄',
+          senza: 'גדול',
           traslitterazione: 'Xìnòng',
           significato: 'Teasing',
           grammatica: '兵士也戲弄耶穌',
@@ -27,6 +29,7 @@ angular.module('xtutorials', [])
       {
         key: 'Xuánguàzhe',
         termine: '懸掛著',
+        senza: 'גדול',
         traslitterazione: 'Xuánguàzhe',
         significato: 'Hanging',
         grammatica: '懸掛著的凶犯中',
@@ -36,6 +39,7 @@ angular.module('xtutorials', [])
         {
           key: 'Xúnzhǎo',
           termine: '尋找',
+          senza: 'גדול',
           traslitterazione: 'Xúnzhǎo',
           significato: 'Search',
           grammatica: '是為尋找及拯救迷失了的人',
