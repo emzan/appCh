@@ -8,6 +8,7 @@ angular.module('ztutorials', [])
         {
           key: 'Zǎi zhì',
           termine: '宰制',
+          senza: 'גדול',
           traslitterazione: 'Zǎi zhì',
           significato: 'Slaughter',
           grammatica: '宰制者和全體天軍',
@@ -17,6 +18,7 @@ angular.module('ztutorials', [])
         {
             key: 'Zuìzhuàng pái',
             termine: '罪狀牌',
+          senza: 'גדול',
             traslitterazione: 'Zuìzhuàng pái',
             significato: 'Guilty card',
             grammatica: '寫的罪狀牌',
@@ -28,6 +30,7 @@ angular.module('ztutorials', [])
         {
             key: '’ên',
             termine: 'אֵין',
+          senza: 'גדול',
             traslitterazione: '’ên',
             significato: 'non c’è, non ci sono, non esiste;',
             grammatica: 'particella di negazione',
@@ -37,6 +40,7 @@ angular.module('ztutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('ztutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('ztutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
