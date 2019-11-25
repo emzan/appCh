@@ -8,6 +8,7 @@ angular.module('ptutorials', [])
         {
           key: 'Pān shàng',
           termine: '攀上',
+          senza: 'גדול',
           traslitterazione: 'Pān shàng',
           significato: 'Climb up',
           grammatica: '攀上了一棵野桑樹',
@@ -17,6 +18,7 @@ angular.module('ptutorials', [])
         {
             key: 'Péicháng',
             termine: '賠償',
+          senza: 'גדול',
             traslitterazione: 'Péicháng',
             significato: 'Compensation',
             grammatica: '我就以四倍賠償',
@@ -28,6 +30,7 @@ angular.module('ptutorials', [])
         {
             key: '’ên',
             termine: 'אֵין',
+          senza: 'גדול',
             traslitterazione: '’ên',
             significato: 'non c’è, non ci sono, non esiste;',
             grammatica: 'particella di negazione',
@@ -37,6 +40,7 @@ angular.module('ptutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('ptutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('ptutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
