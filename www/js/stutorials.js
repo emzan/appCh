@@ -8,6 +8,7 @@ angular.module('stutorials', [])
         {
           key: 'Shīshě',
           termine: '施捨',
+          senza: 'גדול',
           traslitterazione: 'Shīshě',
           significato: 'Alms',
           grammatica: '我把我財物的一半施捨給窮人',
@@ -17,6 +18,7 @@ angular.module('stutorials', [])
         {
             key: 'Shòu fù zhě',
             termine: '受傅者',
+          senza: 'גדול',
             traslitterazione: 'Shòu fù zhě',
             significato: 'Receiver',
             grammatica: '如果這人是天主的受傅者',
@@ -26,6 +28,7 @@ angular.module('stutorials', [])
         {
             key: 'Shǒulǐng',
             termine: '首領',
+          senza: 'גדול',
             traslitterazione: 'Shǒulǐng',
             significato: 'leader',
             grammatica: '首領們嗤笑耶穌',
@@ -37,6 +40,7 @@ angular.module('stutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('stutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('stutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
