@@ -8,6 +8,7 @@ angular.module('gtutorials', [])
         {
             key: 'Gòng róng',
             termine: '共融',
+          senza: 'גדול',
             traslitterazione: 'Gòng róng',
             significato: 'Communion',
             grammatica: '求你藉這共融聖事',
@@ -18,6 +19,7 @@ angular.module('gtutorials', [])
         {
             key: 'Guānwàng',
             termine: '觀望',
+          senza: 'גדול',
             traslitterazione: 'Guānwàng',
             significato: 'Fermarsi a osservare',
             grammatica: '民眾站著觀望;',
@@ -28,6 +30,7 @@ angular.module('gtutorials', [])
         {
           key: 'Guīyú',
           termine: '歸於',
+          senza: 'גדול',
           traslitterazione: 'Guīyú',
           significato: 'Attribution',
           grammatica: '歸於自己權下',
