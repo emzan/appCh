@@ -8,6 +8,7 @@ angular.module('otutorials', [])
         {
           key: 'gāḏôl',
           termine: 'גָּדוֹל',
+          senza: 'גדול',
           traslitterazione: 'gāḏôl',
           significato: 'grande, importante;',
           grammatica: 'agg.',
@@ -17,6 +18,7 @@ angular.module('otutorials', [])
         {
             key: 'gālāh',
             termine: 'גָּלָה',
+          senza: 'גדול',
             traslitterazione: 'gālāh',
             significato: 'scoprire, rimuovere;',
             grammatica: 'v.',
