@@ -8,6 +8,7 @@ angular.module('ktutorials', [])
         {
           key: 'Kuǎndài',
           termine: '款待',
+          senza: 'גדול',
           traslitterazione: 'Kuǎndài',
           significato: 'Hospitality',
           grammatica: '喜悅地款待耶穌',
@@ -17,6 +18,7 @@ angular.module('ktutorials', [])
         {
             key: '’êḵāh',
             termine: 'אֵיכָה',
+          senza: 'גדול',
             traslitterazione: '’êḵāh',
             significato: 'come? come mai?;',
             grammatica: 'particella interrogativa',
@@ -28,6 +30,7 @@ angular.module('ktutorials', [])
         {
             key: '’ên',
             termine: 'אֵין',
+          senza: 'גדול',
             traslitterazione: '’ên',
             significato: 'non c’è, non ci sono, non esiste;',
             grammatica: 'particella di negazione',
@@ -37,6 +40,7 @@ angular.module('ktutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('ktutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('ktutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
