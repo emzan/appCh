@@ -8,6 +8,7 @@ angular.module('ftutorials', [])
         {
           key: 'fu',
           termine: '傅',
+          senza: 'גדול',
           traslitterazione: 'Fù',
           significato: 'teach',
           grammatica: '傅了喜樂之油',
@@ -28,6 +29,7 @@ angular.module('ftutorials', [])
         {
             key: '’ên',
             termine: 'אֵין',
+          senza: 'גדול',
             traslitterazione: '’ên',
             significato: 'non c’è, non ci sono, non esiste;',
             grammatica: 'particella di negazione',
@@ -46,6 +48,7 @@ angular.module('ftutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +58,7 @@ angular.module('ftutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
