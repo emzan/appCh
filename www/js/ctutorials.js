@@ -8,6 +8,7 @@ angular.module('ctutorials', [])
         {
           key: 'gāḏôl',
           termine: 'גָּדוֹל',
+          senza: 'גדול',
           traslitterazione: 'gāḏôl',
           significato: 'grande, importante;',
           grammatica: 'agg.',
@@ -17,6 +18,7 @@ angular.module('ctutorials', [])
         {
             key: 'gālāh',
             termine: 'גָּלָה',
+          senza: 'גדול',
             traslitterazione: 'gālāh',
             significato: 'scoprire, rimuovere;',
             grammatica: 'v.',
@@ -26,6 +28,7 @@ angular.module('ctutorials', [])
         {
           key: 'Chīxiào',
           termine: '嗤笑',
+          senza: 'גדול',
           traslitterazione: 'Chīxiào',
           significato: 'laugh',
           grammatica: '首領們嗤笑耶穌',
