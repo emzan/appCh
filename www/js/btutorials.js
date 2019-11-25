@@ -8,6 +8,7 @@ angular.module('btutorials', [])
         {
           key: 'bāraḥ',
           termine: 'בָּרַח',
+          senza: 'גדול',
           traslitterazione: 'bāraḥ',
           significato: 'fuggire, scappare;',
           grammatica: 'v.',
@@ -17,6 +18,7 @@ angular.module('btutorials', [])
         {
             key: 'beṯûlāh',
             termine: 'בְּתוּלָה',
+          senza: 'גדול',
             traslitterazione: 'beṯûlāh',
             significato: 'vergine;',
             grammatica: 'n. f.',
@@ -26,6 +28,7 @@ angular.module('btutorials', [])
         {
           key: 'Bèi xuǎnzhě',
           termine: '被選者',
+          senza: 'גדול',
           traslitterazione: 'Bèi xuǎnzhě',
           significato: 'Selected',
           grammatica: '如果這人是天主的受傅者、被選者',
@@ -35,6 +38,7 @@ angular.module('btutorials', [])
         {
           key: 'Bēnpǎo',
           termine: '奔跑',
+          senza: 'גדול',
           traslitterazione: 'Bēnpǎo',
           significato: 'run',
           grammatica: '於是他往前奔跑',
@@ -44,6 +48,7 @@ angular.module('btutorials', [])
         {
           key: 'Bīngshì',
           termine: '兵士',
+          senza: 'גדול',
           traslitterazione: 'Bīngshì',
           significato: 'Soldier',
           grammatica: '兵士也戲弄耶穌',
