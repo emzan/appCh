@@ -44,7 +44,7 @@ function ($scope, $stateParams, Tutorials) {
         }
         
         $scope.narrowed_tutorials = Tutorials.list.filter(function(tutorial){
-          if (tutorial.termine.toLowerCase().indexOf(s) > -1 || tutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+          if (tutorial.termine.toLowerCase().indexOf(s) > -1 || tutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || tutorial.key.toLowerCase().indexOf(s) > -1){
               return true;
           } 
           return false;
@@ -73,7 +73,7 @@ function ($scope, $stateParams, Btutorials) {
         }
         
         $scope.narrowed_btutorials = Btutorials.list.filter(function(btutorial){
-          if (btutorial.termine.toLowerCase().indexOf(s) > -1 || btutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+          if (btutorial.termine.toLowerCase().indexOf(s) > -1 || btutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || btutorial.key.toLowerCase().indexOf(s) > -1){
               return true;
           } 
           return false;
@@ -102,7 +102,7 @@ function ($scope, $stateParams, Ctutorials) {
         }
         
         $scope.narrowed_ctutorials = Ctutorials.list.filter(function(ctutorial){
-          if (ctutorial.termine.toLowerCase().indexOf(s) > -1 || ctutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+          if (ctutorial.termine.toLowerCase().indexOf(s) > -1 || ctutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ctutorial.key.toLowerCase().indexOf(s) > -1){
               return true;
           } 
           return false;
@@ -131,7 +131,7 @@ function ($scope, $stateParams, Dtutorials) {
         }
         
         $scope.narrowed_dtutorials = Dtutorials.list.filter(function(dtutorial){
-          if (dtutorial.termine.toLowerCase().indexOf(s) > -1 || dtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+          if (dtutorial.termine.toLowerCase().indexOf(s) > -1 || dtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || dtutorial.key.toLowerCase().indexOf(s) > -1){
               return true;
           } 
           return false;
@@ -160,7 +160,7 @@ function ($scope, $stateParams, Etutorials) {
         }
         
         $scope.narrowed_etutorials = Etutorials.list.filter(function(etutorial){
-          if (etutorial.termine.toLowerCase().indexOf(s) > -1 || etutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+          if (etutorial.termine.toLowerCase().indexOf(s) > -1 || etutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || etutorial.senza.toLowerCase().indexOf(s) > -1 || etutorial.key.toLowerCase().indexOf(s) > -1){
               return true;
           } 
           return false;
@@ -189,7 +189,7 @@ function ($scope, $stateParams, Etutorials) {
           }
           
           $scope.narrowed_ttutorials = Ttutorials.list.filter(function(ttutorial){
-            if (ttutorial.termine.toLowerCase().indexOf(s) > -1 || ttutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+            if (ttutorial.termine.toLowerCase().indexOf(s) > -1 || ttutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ttutorial.key.toLowerCase().indexOf(s) > -1){
                 return true;
             } 
             return false;
@@ -218,7 +218,7 @@ function ($scope, $stateParams, Etutorials) {
             }
             
             $scope.narrowed_ftutorials = Ftutorials.list.filter(function(ftutorial){
-              if (ftutorial.termine.toLowerCase().indexOf(s) > -1 || ftutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+              if (ftutorial.termine.toLowerCase().indexOf(s) > -1 || ftutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ftutorial.key.toLowerCase().indexOf(s) > -1){
                   return true;
               } 
               return false;
@@ -247,7 +247,7 @@ function ($scope, $stateParams, Etutorials) {
               }
               
               $scope.narrowed_gtutorials = Gtutorials.list.filter(function(gtutorial){
-                if (gtutorial.termine.toLowerCase().indexOf(s) > -1 || gtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                if (gtutorial.termine.toLowerCase().indexOf(s) > -1 || gtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || gtutorial.key.toLowerCase().indexOf(s) > -1){
                     return true;
                 } 
                 return false;
@@ -276,7 +276,7 @@ function ($scope, $stateParams, Etutorials) {
               }
               
               $scope.narrowed_htutorials = Htutorials.list.filter(function(htutorial){
-                if (htutorial.termine.toLowerCase().indexOf(s) > -1 || htutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                if (htutorial.termine.toLowerCase().indexOf(s) > -1 || htutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || htutorial.key.toLowerCase().indexOf(s) > -1){
                     return true;
                 } 
                 return false;
@@ -305,7 +305,7 @@ function ($scope, $stateParams, Etutorials) {
                 }
                 
                 $scope.narrowed_itutorials = Itutorials.list.filter(function(itutorial){
-                  if (itutorial.termine.toLowerCase().indexOf(s) > -1 || itutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                  if (itutorial.termine.toLowerCase().indexOf(s) > -1 || itutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || itutorial.key.toLowerCase().indexOf(s) > -1){
                       return true;
                   } 
                   return false;
@@ -334,7 +334,7 @@ function ($scope, $stateParams, Etutorials) {
                   }
                   
                   $scope.narrowed_ltutorials = Ltutorials.list.filter(function(ltutorial){
-                    if (ltutorial.termine.toLowerCase().indexOf(s) > -1 || ltutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                    if (ltutorial.termine.toLowerCase().indexOf(s) > -1 || ltutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ltutorial.key.toLowerCase().indexOf(s) > -1){
                         return true;
                     } 
                     return false;
@@ -363,7 +363,7 @@ function ($scope, $stateParams, Etutorials) {
               }
               
               $scope.narrowed_jtutorials = Jtutorials.list.filter(function(jtutorial){
-                if (jtutorial.termine.toLowerCase().indexOf(s) > -1 || jtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                if (jtutorial.termine.toLowerCase().indexOf(s) > -1 || jtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || jtutorial.key.toLowerCase().indexOf(s) > -1){
                     return true;
                 } 
                 return false;
@@ -392,7 +392,7 @@ function ($scope, $stateParams, Etutorials) {
                 }
                 
                 $scope.narrowed_ktutorials = Ktutorials.list.filter(function(ktutorial){
-                  if (ktutorial.termine.toLowerCase().indexOf(s) > -1 || ktutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                  if (ktutorial.termine.toLowerCase().indexOf(s) > -1 || ktutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ktutorial.key.toLowerCase().indexOf(s) > -1){
                       return true;
                   } 
                   return false;
@@ -421,7 +421,7 @@ function ($scope, $stateParams, Etutorials) {
                   }
                   
                   $scope.narrowed_mtutorials = Mtutorials.list.filter(function(mtutorial){
-                    if (mtutorial.termine.toLowerCase().indexOf(s) > -1 || mtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                    if (mtutorial.termine.toLowerCase().indexOf(s) > -1 || mtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || mtutorial.key.toLowerCase().indexOf(s) > -1){
                         return true;
                     } 
                     return false;
@@ -450,7 +450,7 @@ function ($scope, $stateParams, Etutorials) {
                     }
                     
                     $scope.narrowed_ntutorials = Ntutorials.list.filter(function(ntutorial){
-                      if (ntutorial.termine.toLowerCase().indexOf(s) > -1 || ntutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                      if (ntutorial.termine.toLowerCase().indexOf(s) > -1 || ntutorial.traslitterazione.toLowerCase().indexOf(s) > -1 ||  ntutorial.key.toLowerCase().indexOf(s) > -1){
                           return true;
                       } 
                       return false;
@@ -479,7 +479,7 @@ function ($scope, $stateParams, Etutorials) {
                       }
                       
                       $scope.narrowed_otutorials = Otutorials.list.filter(function(otutorial){
-                        if (otutorial.termine.toLowerCase().indexOf(s) > -1 || otutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                        if (otutorial.termine.toLowerCase().indexOf(s) > -1 || otutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || otutorial.key.toLowerCase().indexOf(s) > -1){
                             return true;
                         } 
                         return false;
@@ -508,7 +508,7 @@ function ($scope, $stateParams, Etutorials) {
                 }
                 
                 $scope.narrowed_ptutorials = Ptutorials.list.filter(function(ptutorial){
-                  if (ptutorial.termine.toLowerCase().indexOf(s) > -1 || ptutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                  if (ptutorial.termine.toLowerCase().indexOf(s) > -1 || ptutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ptutorial.key.toLowerCase().indexOf(s) > -1){
                       return true;
                   } 
                   return false;
@@ -537,7 +537,7 @@ function ($scope, $stateParams, Etutorials) {
                   }
                   
                   $scope.narrowed_qtutorials = Qtutorials.list.filter(function(qtutorial){
-                    if (qtutorial.termine.toLowerCase().indexOf(s) > -1 || qtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                    if (qtutorial.termine.toLowerCase().indexOf(s) > -1 || qtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || qtutorial.key.toLowerCase().indexOf(s) > -1){
                         return true;
                     } 
                     return false;
@@ -566,7 +566,7 @@ function ($scope, $stateParams, Etutorials) {
                     }
                     
                     $scope.narrowed_rtutorials = Rtutorials.list.filter(function(rtutorial){
-                      if (rtutorial.termine.toLowerCase().indexOf(s) > -1 || rtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                      if (rtutorial.termine.toLowerCase().indexOf(s) > -1 || rtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || rtutorial.key.toLowerCase().indexOf(s) > -1){
                           return true;
                       } 
                       return false;
@@ -596,7 +596,7 @@ function ($scope, $stateParams, Etutorials) {
                   }
                   
                   $scope.narrowed_stutorials = Stutorials.list.filter(function(stutorial){
-                    if (stutorial.termine.toLowerCase().indexOf(s) > -1 || stutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                    if (stutorial.termine.toLowerCase().indexOf(s) > -1 || stutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || stutorial.key.toLowerCase().indexOf(s) > -1){
                         return true;
                     } 
                     return false;
@@ -625,7 +625,7 @@ function ($scope, $stateParams, Etutorials) {
                     }
                     
                     $scope.narrowed_ututorials = Ututorials.list.filter(function(ututorial){
-                      if (ututorial.termine.toLowerCase().indexOf(s) > -1 || ututorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                      if (ututorial.termine.toLowerCase().indexOf(s) > -1 || ututorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ututorial.key.toLowerCase().indexOf(s) > -1){
                           return true;
                       } 
                       return false;
@@ -654,7 +654,7 @@ function ($scope, $stateParams, Etutorials) {
                       }
                       
                       $scope.narrowed_vtutorials = Vtutorials.list.filter(function(vtutorial){
-                        if (vtutorial.termine.toLowerCase().indexOf(s) > -1 || vtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                        if (vtutorial.termine.toLowerCase().indexOf(s) > -1 || vtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || vtutorial.key.toLowerCase().indexOf(s) > -1){
                             return true;
                         } 
                         return false;
@@ -684,7 +684,7 @@ function ($scope, $stateParams, Etutorials) {
               }
               
               $scope.narrowed_wtutorials = Wtutorials.list.filter(function(wtutorial){
-                if (wtutorial.termine.toLowerCase().indexOf(s) > -1 || wtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                if (wtutorial.termine.toLowerCase().indexOf(s) > -1 || wtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || wtutorial.key.toLowerCase().indexOf(s) > -1){
                     return true;
                 } 
                 return false;
@@ -713,7 +713,7 @@ function ($scope, $stateParams, Etutorials) {
                 }
                 
                 $scope.narrowed_xtutorials = Xtutorials.list.filter(function(xtutorial){
-                  if (xtutorial.termine.toLowerCase().indexOf(s) > -1 || xtutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                  if (xtutorial.termine.toLowerCase().indexOf(s) > -1 || xtutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || xtutorial.key.toLowerCase().indexOf(s) > -1){
                       return true;
                   } 
                   return false;
@@ -742,7 +742,7 @@ function ($scope, $stateParams, Etutorials) {
                 }
                 
                 $scope.narrowed_ytutorials = Ytutorials.list.filter(function(ytutorial){
-                  if (ytutorial.termine.toLowerCase().indexOf(s) > -1 || ytutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                  if (ytutorial.termine.toLowerCase().indexOf(s) > -1 || ytutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ytutorial.key.toLowerCase().indexOf(s) > -1){
                       return true;
                   } 
                   return false;
@@ -771,7 +771,7 @@ function ($scope, $stateParams, Etutorials) {
                 }
                 
                 $scope.narrowed_ztutorials = Ztutorials.list.filter(function(ztutorial){
-                  if (ztutorial.termine.toLowerCase().indexOf(s) > -1 || ztutorial.traslitterazione.toLowerCase().indexOf(s) > -1){
+                  if (ztutorial.termine.toLowerCase().indexOf(s) > -1 || ztutorial.traslitterazione.toLowerCase().indexOf(s) > -1 || ztutorial.key.toLowerCase().indexOf(s) > -1){
                       return true;
                   } 
                   return false;
