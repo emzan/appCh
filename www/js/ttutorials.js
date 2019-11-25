@@ -9,6 +9,7 @@ angular.module('ttutorials', [])
         {
             key: 'Táitóu',
             termine: '抬頭',
+          senza: 'גדול',
             traslitterazione: 'Táitóu',
             significato: 'look up',
             grammatica: '抬頭一看',
@@ -19,6 +20,7 @@ angular.module('ttutorials', [])
         {
             key: 'Tiān jūn',
             termine: '天軍',
+          senza: 'גדול',
             traslitterazione: 'Tiān jūn',
             significato: 'heavenly army',
             grammatica: '宰制者和全體天軍',
@@ -28,6 +30,7 @@ angular.module('ttutorials', [])
         {
             key: 'Tóusù',
             termine: '投宿',
+          senza: 'גדול',
             traslitterazione: 'Tóusù',
             significato: 'Staying',
             grammatica: '他竟到有罪的人那裏投宿',
@@ -37,6 +40,7 @@ angular.module('ttutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('ttutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('ttutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
