@@ -8,6 +8,7 @@ angular.module('mtutorials', [])
         {
           key: 'Méng nǐ',
           termine: '蒙你',
+          senza: 'גדול',
           traslitterazione: 'Méng nǐ',
           significato: 'You',
           grammatica: '願我們的獻禮蒙你悅納',
@@ -17,6 +18,7 @@ angular.module('mtutorials', [])
         {
             key: '’êḵāh',
             termine: 'אֵיכָה',
+          senza: 'גדול',
             traslitterazione: '’êḵāh',
             significato: 'come? come mai?;',
             grammatica: 'particella interrogativa',
@@ -28,6 +30,7 @@ angular.module('mtutorials', [])
         {
             key: '’ên',
             termine: 'אֵין',
+          senza: 'גדול',
             traslitterazione: '’ên',
             significato: 'non c’è, non ci sono, non esiste;',
             grammatica: 'particella di negazione',
@@ -37,6 +40,7 @@ angular.module('mtutorials', [])
         {
             key: '’îš',
             termine: 'אִישׁ',
+          senza: 'גדול',
             traslitterazione: '’îš',
             significato: 'uomo, marito, maschio;',
             grammatica: 'n. m.',
@@ -46,6 +50,7 @@ angular.module('mtutorials', [])
         {
             key: '’āḵal',
             termine: 'אָכַל',
+          senza: 'גדול',
             traslitterazione: '’āḵal',
             significato: 'mangiare;',
             grammatica: 'v.',
@@ -55,6 +60,7 @@ angular.module('mtutorials', [])
         {
             key: '’æmeṯ',
             termine: 'אֱמֶת',
+          senza: 'גדול',
             traslitterazione: '’æmeṯ',
             significato: 'verità, affidabilità, correttezza, fedeltà, costanza;',
             grammatica: 'n. f.',
